@@ -53,7 +53,8 @@ each request.
 ## What is not built yet
 
 Almost everything specific to the project. Done: the template's four contract
-routes (with handler tests), `--version`, and CI. Not done:
+routes, `--version`, and CI. No handler tests yet: the only test is the
+template's `--version` test. Not done:
 
 - the git parser and any of the `/repositories` routes;
 - both merge policies, and the stated policy in contributor responses;
